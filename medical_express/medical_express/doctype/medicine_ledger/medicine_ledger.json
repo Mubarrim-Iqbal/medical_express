@@ -1,0 +1,165 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "ML-.#####",
+ "creation": "2023-12-21 16:17:07.300569",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "store_details_tab",
+  "store_id",
+  "store_type",
+  "column_break_wjsmw",
+  "store_name",
+  "store_city",
+  "contact_details_section",
+  "opening_hours",
+  "street_address",
+  "column_break_cgul2",
+  "mobile_number",
+  "contact_email",
+  "medicines_list_tab",
+  "medicine_formula",
+  "medicine_type",
+  "column_break_40k72",
+  "medicine_name",
+  "medicine_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "store_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Store Details"
+  },
+  {
+   "fieldname": "store_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Store ID",
+   "options": "Medical Store"
+  },
+  {
+   "fieldname": "store_name",
+   "fieldtype": "Data",
+   "label": "Store name"
+  },
+  {
+   "fieldname": "store_city",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Store City",
+   "options": "City"
+  },
+  {
+   "fieldname": "store_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Store Type",
+   "options": "Store Type"
+  },
+  {
+   "fieldname": "street_address",
+   "fieldtype": "Data",
+   "label": "Street Address"
+  },
+  {
+   "fieldname": "opening_hours",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Opening Hours",
+   "options": "\n10AM - 10PM\n24hrs"
+  },
+  {
+   "fieldname": "medicines_list_tab",
+   "fieldtype": "Tab Break",
+   "label": "Medicine"
+  },
+  {
+   "fieldname": "medicine_formula",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Medicine Formula",
+   "options": "Item"
+  },
+  {
+   "fieldname": "medicine_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medicine Name"
+  },
+  {
+   "fieldname": "medicine_price",
+   "fieldtype": "Float",
+   "label": "Medicine Price"
+  },
+  {
+   "fieldname": "column_break_wjsmw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "column_break_cgul2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_40k72",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "medicine_type",
+   "fieldtype": "Link",
+   "label": "Medicine Type",
+   "options": "Medicine Type"
+  },
+  {
+   "fieldname": "contact_email",
+   "fieldtype": "Data",
+   "label": "Contact Email"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-27 12:06:29.825332",
+ "modified_by": "Administrator",
+ "module": "Medical Express",
+ "name": "Medicine Ledger",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "medicine_name",
+ "track_changes": 1,
+ "track_seen": 1
+}

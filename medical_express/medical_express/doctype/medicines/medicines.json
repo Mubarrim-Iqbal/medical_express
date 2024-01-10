@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-21 15:04:48.794666",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "medicine_formula",
+  "medicine_name",
+  "medicine_type",
+  "medicine_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "medicine_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medicine Name"
+  },
+  {
+   "fieldname": "medicine_formula",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Medicine Formula",
+   "options": "Item"
+  },
+  {
+   "fieldname": "medicine_price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Medicine Price"
+  },
+  {
+   "fieldname": "medicine_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Medicine Type",
+   "options": "Medicine Type"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-22 14:44:04.045976",
+ "modified_by": "Administrator",
+ "module": "Medical Express",
+ "name": "Medicines",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
